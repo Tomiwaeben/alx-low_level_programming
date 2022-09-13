@@ -6,11 +6,11 @@
  * Return: Always 0.
  */
 
-int main()
+int main( )
 {
 	putchar('_');
 	putchar('p');
-        putchar('u');
+       	putchar('u');
 	putchar('t');
 	putchar('c');
 	putchar('h');
@@ -18,5 +18,5 @@ int main()
 	putchar('r');
 	putchar('\n');
 
-	return 0;
+	return (0);
 }
