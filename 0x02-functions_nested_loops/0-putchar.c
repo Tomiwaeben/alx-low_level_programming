@@ -6,11 +6,11 @@
  * Return: Always 0.
  */
 
-int main( )
+int main(void)
 {
 	putchar('_');
 	putchar('p');
-       	putchar('u');
+	putchar('u');
 	putchar('t');
 	putchar('c');
 	putchar('h');
