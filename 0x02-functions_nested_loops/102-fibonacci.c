@@ -8,19 +8,19 @@
 int main(void)
 {
 	int x = 0;
-	long int  y = 1, z = 2;
+	long y = 1, z = 2;
 
 	while (x < 50)
 	{
 		if (x == 0)
-			printf("%1d", y);
+			printf("%ld", y);
 		else if (x == 1)
-			printf(", %1d", z);
+			printf(", %ld", z);
 		else
 		{
 			z += y;
 			y = (z - y);
-			printf(", %1d", z);
+			printf(", %ld", z);
 		}
 
 		++x;
