@@ -8,8 +8,7 @@
 int main(void)
 {
 	int x = 0;
-	long y = 1;
-	long z = 2;
+	long y = 1, z = 2;
 
 	while (x < 50)
 	{
