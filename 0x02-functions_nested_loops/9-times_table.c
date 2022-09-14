@@ -29,7 +29,7 @@ void times_table(void)
 			{
 				if (y != 0)
 				{
-					pitchar(44);
+					putchar(44);
 					putchar(32);
 					putchar(32);
 				}
