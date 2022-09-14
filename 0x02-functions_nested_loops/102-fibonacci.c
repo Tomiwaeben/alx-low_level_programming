@@ -14,13 +14,9 @@ int main(void)
 	while (x < 50)
 	{
 		if (x == 0)
-		{
 			printf("%1d", y);
-		}
 		else if (x == 1)
-		{
 			printf(", %1d", z);
-		}
 		else
 		{
 			z += y;
