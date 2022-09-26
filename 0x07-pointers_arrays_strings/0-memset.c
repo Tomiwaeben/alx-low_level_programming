@@ -9,6 +9,7 @@ nclude "main.h"
  *
  * Return: pointer to s
  */
+
 char *_memset(char *s, char b, unsigned int n)
 {
 	while (n)
