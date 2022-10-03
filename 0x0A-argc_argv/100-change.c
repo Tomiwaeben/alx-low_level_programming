@@ -36,7 +36,7 @@ int coinConverter(int i)
 		count++;
 	}
 
-	return (coumt);
+	return (count);
 }
 
 /**
